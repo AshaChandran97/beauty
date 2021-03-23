@@ -1,0 +1,167 @@
+*
+{box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],
+input[type=email],textarea[type=address],
+select[type=option], input[type=date],
+input[type=time] {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+h3,p{
+  color:#ff7733;
+  text-align: center;
+}
+td{
+  color:#d9d9d9;
+}
+.textalign
+{
+  text-align: :center;
+}
+
+.leg{
+  color:white;
+}
+
+/* Set a style for the submit/register button */
+.rbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  text-align:center;
+}
+
+.rbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a
+{
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+/*.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}*/
+.tagline{
+   /* background-color:white;*/
+    text-align:center;
+    color:white;
+        }
+.menubar{
+   
+    text-align:center;
+        }
+.menubar ul{
+    list-style:none;
+    display:inline-flex;
+    padding:10px;
+          }
+.menubar ul li a{
+      color:white;
+      text-decoration:none;
+      padding:10px;  
+    }
+.menubar ul li{
+     padding:10px; 
+        }
+a:hover{
+      background-color:red;
+      border-radius:10px;
+    }
+.submenu{
+      display:none;  
+    }
+.menubar ul li:hover .submenu{
+       
+        display:block;
+        position:absolute;
+        background-color:black;
+        color:white;
+        margin-left:-25px;
+        padding:10px;
+     }
+.submenu ul{
+      display:block;
+     }
+.submenu ul li{
+      border-bottom:2px solid #ff0000 ;
+      border-radius:10px; 
+     }
+     
+div{
+   padding:15px;
+   text-align:center;
+    }
+.row
+{
+  display:flex;
+}
+.col
+{
+ 
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */;
+ padding:15px;
+ background-color: rgba(0,0,0,0.4);
+ width:200px;
+ height:150px;
+ color:white;
+ text-align:justify;
+ margin:5px;
+}
+.row h2
+{
+  text-decoration:underline;
+  text-align:center;
+}
+.user
+{
+  background-image:url(../img/userhome.jpg);
+  background-size:cover;
+ }
+.userreg
+{
+  background-image:url(../img/userregpage.jpg);
+   background-size:cover;
+}
+.book
+{
+  background-image:url(../img/bkf1.jpg);
+  background-size:cover;
+}
+.package
+{
+  background-image:url(../img/bkf.jpg);
+  background-size:cover;
+}
